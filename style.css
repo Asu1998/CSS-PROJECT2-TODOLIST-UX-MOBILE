@@ -1,0 +1,437 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bg{
+    background-image: url(https://wallpaperaccess.com/full/316663.jpg);
+    filter: blur(8px);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+    align-items: center;
+    position: relative;
+    top: 120px;
+} 
+.task{
+    color: black;
+    font-size: 40px;
+    margin-left: 70px;
+    font-weight: 600;
+}
+.list{
+    color:gray;
+    font-size: 40px;
+    position: relative;
+    left: 108px;
+    top: -45px;
+    font-weight: 1;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(253, 97, 45);
+    border-radius: 50%;
+    left: 30%;
+    top: -25px;
+    position: relative;
+}
+.boxz{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 210px;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    left: 50PX;
+}
+.box{
+    height: 250px;
+    width: 180PX;
+    border: 2px solid rgb(230, 68, 14);
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 8px 8px rgba(79, 77, 77, 0.982);
+}
+.t{
+    font-size: 20px;
+    color: rgb(255, 88, 88);
+    top: 20px;
+    position: relative;
+    padding-left: 40px;
+}
+hr{
+    width: 80%;
+    background-color: gray;
+    float: right;
+    margin-top: 30px; 
+} 
+.box1{
+    height: 100px;
+    width: 500px;
+    margin: auto;
+}
+h1{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    top: 50px;
+}
+.icon2{
+    margin-top: 40px;
+    margin-left: 45%;
+    height: 25px;
+    width: 25px;
+    background-color: orangered;
+    border-radius: 50%; 
+} 
+.icon2 a{
+    color: white;
+    font-weight: bolder;
+    font-size: 70px;
+    text-decoration: none;
+}
+.box2{
+    height: 300px;
+    width: 250px;
+    border: 2px solid rgb(253, 77, 19);
+    margin: auto;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.226);
+}
+.trip{
+    font-size: 30px;
+    font-weight: bolder;
+    color: red;
+    top: 20px;
+    position: relative;
+    left: 45px;
+}
+.trip hr{
+    height: .3px;
+    width: 80%;
+    outline: none;
+    background-color:gray ;
+    float: right;
+    margin-top: 30px;
+    outline: none;
+}
+.compl{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left:62px;
+    position: relative;
+    top: 20px;
+    text-decoration: line-through;
+}
+.pend{
+   position: relative;
+   text-align: center;
+   top: 60px;
+}
+.inp{
+    position: relative;
+    top: 63px;
+    left: 30%;
+}
+.icon3{
+    display: block;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(237, 75, 20);
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    position: relative;
+    float: right;
+    top: 47%;
+    right: 20px;
+}
+.icon3 a{
+    color: white;
+    position: relative;
+    top: 1px;
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: none;
+}
+.mainb{
+    filter: blur(8px);
+    height: 100%;
+}
+.mainbox{
+    width: 300PX;
+    height: 150PX;
+    border: 2PX solid red;
+    border-radius: 10PX;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.226);
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+}
+.mainbox P{
+    color: orangered;
+    font-weight: bolder;
+    position: relative;
+    top: 20%;
+    left: 30%;
+    font-size:large;
+}
+.mainbox input{
+    height: 30px;
+    width: 250px;
+    position: relative;
+    top: 30%;
+    left: 8%;
+    outline: none;
+    border: 1.5px solid rgb(243, 86, 86);
+    border-radius: 6px;
+}
+.mainbox button{
+    background-color:orangered;
+    height: 30px;
+    width: 70px;
+    border-radius: 15px;
+    border: 1px solid orangered;
+    color: white;
+    position: relative;
+    top:40%;
+    left: 120px;
+}
+@media screen and (min-width:360px)
+{
+    .bg{
+        background-image: url(https://i.pinimg.com/originals/87/e6/25/87e62506016cddf8b26f11d35308cabc.jpg);
+        filter: blur(1px);
+        background-position: center;
+        background-repeat: repeat;
+        background-size: stretch;
+        position: absolute;
+    }
+    .top{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 50px;
+        left: -150px;
+    } 
+    .task{
+        color: black;
+        font-size: 30px;
+        margin-left: 70px;
+        font-weight: 600;
+    }
+    .list{
+        color:gray;
+        font-size: 30px;
+        position: relative;
+        left: 80px;
+        top: -34px;
+        font-weight: 1;
+    }
+    .icon{
+        height: 30px;
+        width: 30px;
+        background-color: rgb(253, 97, 45);
+        border-radius: 50%;
+        left: 70%;
+        top: -20px;
+        position: relative;
+    }
+    .icon a{
+        margin-left: 30%;
+        color: white;
+        font-size: 20px;
+        top: 2px;
+        font-weight: bolder;
+        text-decoration: none;
+        position: relative;
+    }
+    .add{
+        position: relative;
+        left: 30%;
+        font-size: 30px;
+        color: gray;
+        top: -25px;
+        text-decoration: none;
+    }
+    .boxz{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 30px;
+        height: 90%;
+        width: 90%;
+        position: relative;
+        top: 60px;
+        left: -3vw;
+    }
+    .box{
+        height: 50px;
+        width: 250px;
+        border: 2px solid rgb(230, 68, 14);
+        border-radius: 8px;
+        background-color: white;
+        box-shadow: 8px 8px rgba(79, 77, 77, 0.982);
+    }
+    .t{
+        font-size: 20px;
+        color: rgb(255, 88, 88);
+        top: 20px;
+        position: relative;
+        padding-left: 40px;
+    }
+    .t a{
+        text-decoration: none;
+        color: rgba(235, 23, 23, 0.904);
+    }
+    .box1{
+        height: 100px;
+        width: 500px;
+    }
+    h1{
+        position: relative;
+        top: 50px;
+        left: -20vw;
+    }
+    .icon2{
+        margin-top: -45px;
+        margin-left: 14%;
+        height: 35px;
+        width: 35px;
+        background-color: orangered;
+        border-radius: 50%; 
+    } 
+    .icon2 a{
+        color: white;
+        top: -10px;
+        font-weight: bolder;
+        font-size: 30px;
+        text-decoration: none;
+    }
+    .box2{
+        height: 300px;
+        width: 250px;
+        border: 2px solid rgb(253, 77, 19);
+        margin-top: 100px;
+        border-radius: 8px;
+        background-color: white;
+        box-shadow: 8px 8px rgba(0, 0, 0, 0.226);
+    }
+    .trip{
+        font-size: 30px;
+        font-weight: bolder;
+        color: red;
+        top: 20px;
+        position: relative;
+        left: 45px;
+    }
+    .trip hr{
+        height: .3px;
+        width: 80%;
+        outline: none;
+        background-color:gray ;
+        float: right;
+        margin-top: 30px;
+        outline: none;
+    }
+    .compl{
+        color: red;
+        font-size: 20px;
+        font-weight: bolder;
+        margin-left:62px;
+        position: relative;
+        top: 20px;
+        text-decoration: line-through;
+    }
+    .pend{
+       position: relative;
+       text-align: center;
+       top: 43px;
+       margin-left: 20px;
+    }
+    .inp{
+        position: relative;
+        top: 63px;
+        left: 30%;
+    }
+    .icon3{
+        display: block;
+        height: 30px;
+        width: 30px;
+        background-color: rgb(237, 75, 20);
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        position: relative;
+        float: right;
+        top: 47%;
+        right: 20px;
+    }
+    .icon3 a{
+        color: white;
+        position: relative;
+        top: 1px;
+        font-weight: 500;
+        font-size: 25px;
+        text-decoration: none;
+    }
+    .mainb{
+        filter: blur(8px);
+        height: 100%;
+    }
+    .mainbox{
+        width: 300PX;
+        height: 150PX;
+        border: 2PX solid red;
+        border-radius: 10PX;
+        box-shadow: 8px 8px rgba(0, 0, 0, 0.226);
+        margin: auto;
+        position: absolute;
+        top: 30%;
+        left: 8%;
+    }
+    .mainbox P{
+        color: orangered;
+        font-weight: bolder;
+        position: relative;
+        top: 20%;
+        left: 30%;
+        font-size:large;
+    }
+    .mainbox input{
+        height: 30px;
+        width: 250px;
+        position: relative;
+        top: 30%;
+        left: 8%;
+        outline: none;
+        border: 1.5px solid rgb(243, 86, 86);
+        border-radius: 6px;
+    }
+    .mainbox button{
+        background-color:orangered;
+        height: 30px;
+        width: 70px;
+        border-radius: 15px;
+        border: 1px solid orangered;
+        color: white;
+        position: relative;
+        top:40%;
+        left: 120px;
+    }
+
+}
